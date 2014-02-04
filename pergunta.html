@@ -1,43 +1,58 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
+<link type="text/css" rel="stylesheet" href="style.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Cadastro de Perguntas</title>
 <script type="text/javascript" src="javascripts/valida.js"></script>
 </head>
 
 <body>
-<p>Cadastro de Perguntas</p>
-<form id="form1" name="cadastro_pergunta" method="post" action="" onsubmit="return validaCamposCadastroPergunta(); return false;">
-  <p align="justify">
-    <label for="titulo">Título:</label>
-    <input type="text" name="titulo" id="titulo" />
-  </p>
-  <p align="justify">
-    <label for="alternativa_a">Alternativa a):</label>
-    <input type="text" name="alternativa_a" id="alternativa_a" />
-  </p>
-  <p align="justify">
-    <label for="alternativa_a">Alternativa b):</label>
-    <input type="text" name="alternativa_b" id="alternativa_a" />
-</p>
-  <p align="justify">
-    <label for="alternativa_a">Alternativa c):</label>
-    <input type="text" name="alternativa_c" id="alternativa_a" />
-</p>
-  <p align="justify">
-    <label for="alternativa_a">Alternativa d):</label>
-      <input type="text" name="alternativa_d" id="alternativa_a2" />
-  </p>
-  <p align="justify">
-    <label for="alternativa_a">Alternativa Correta:</label>
-    <input type="text" name="alternativa_correta" id="alternativa_a" />
-  </p>
-  <p align="justify">
-    <input name="salvar" type="submit" id="salvar" value="Salvar" />
-    <input type="submit" name="cancelar" id="cancelar" value="Cancelar" />
-  </p>
-</form>
-<p>&nbsp;</p>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="700" height="133"><img src="images/bg-topo.fw.png" /></td>
+  </tr>
+  <tr>
+    <td height="29" bgcolor="#1A3DE9"></td>
+  </tr>
+  <tr>
+    <td height="588" align="center" valign="top" bgcolor="#FFFFFF"><p><strong>Cadastro de Perguntas</strong><br />
+      </p>
+      <form id="form1" name="cadastro_pergunta" method="post" action="" onsubmit="return validaCamposCadastroPergunta(); return false;">
+
+      <table width="367" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="145">Titulo:</td>
+          <td width="222"><input type="text" name="titulo" id="titulo" /></td>
+        </tr>
+        <tr>
+          <td><label for="label">Alternativa a):</label></td>
+          <td> <input type="text" name="alternativa_a" id="alternativa_a" /></td>
+        </tr>
+        <tr>
+          <td>Alternativa b):</td>
+          <td> <input type="text" name="alternativa_b" id="alternativa_b" /></td>
+        </tr>
+        <tr>
+          <td>Alternativa c):</td>
+          <td> <input type="text" name="alternativa_c" id="alternativa_c" /></td>
+        </tr>
+        <tr>
+          <td>Alternativa d):</td>
+          <td> <input type="text" name="alternativa_d" id="alternativa_d" /></td>
+        </tr>
+        <tr>
+          <td>Alternativa Correta:</td>
+          <td><input type="text" name="alternativa_correta" id="alternativa_correta" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" name="botao" id="botao2" value="Salvar" class="botao" /></td>
+        </tr>
+      </table>
+      </form>
+      <p></p>
+    </td>
+  </tr>
+</table>
 </body>
 </html>

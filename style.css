@@ -1,0 +1,13 @@
+body {
+	background-image: url(images/391fa29e-f514.jpg);
+	background-repeat:repeat-x;	
+	background-attachment:fixed;
+}
+
+.botao {
+	background-color:#FF0000; 
+	color:#FFFFFF; 
+	width:60px; 
+	height:40px;
+
+}
