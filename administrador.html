@@ -3,6 +3,8 @@
 <link type="text/css" rel="stylesheet" href="style.css" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Cadastro de Administrador</title>
+<script type="text/javascript" src="javascripts/valida.js"></script>
+
 </head>
 
 <body>
@@ -11,13 +13,13 @@
     <td width="700" height="133"><img src="images/bg-topo.fw.png" /></td>
   </tr>
   <tr>
-    <td height="29" bgcolor="#1A3DE9"></td>
+    <td height="29" bgcolor="#1A3DE9"><a href="administrador.html">Cadastrar Admin</a> - <a href="usuario.html">Cadastrar Usuário</a> - <a href="perguntas.html">Cadastrar Perguntas</a></td>
   </tr>
   <tr>
     <td height="588" align="center" valign="top" bgcolor="#FFFFFF"><p><strong>Cadastro de Administrador</strong><br />
       <br />
     </p>
-      <form id="form1" name="cadastro_administrador" method="post" action="" onsubmit="return validarCamposCadastroAdministrador(); return false;">
+      <form id="form1" name="cadastro_administrador" method="post" action="" onSubmit="return validarCamposCadastroAdministrador(); return false;">
       <table width="361" border="0" cellpadding="0" cellspacing="0">
         <tr>
           <td width="110">Nome:</td>

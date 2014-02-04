@@ -11,3 +11,17 @@ body {
 	height:40px;
 
 }
+
+a:link {
+	color: #FFFFFF;
+}
+a:visited {
+	color: #FFFFFF;
+}
+a:hover {
+	color: #CCCCCC;
+}
+a:active {
+	color: #FFFFFF;
+}
+
